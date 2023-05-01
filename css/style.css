@@ -1,0 +1,40 @@
+a {
+    text-decoration: none;
+    color: #0000ff;
+}
+a:hover {
+    text-decoration: underline;
+}
+body {
+    margin-top: 40px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    /*font-family: 'Indie Flower';*/
+    font-family: 'Roboto Slab', 'Sans-Serif';
+    font-style: normal;
+    font-weight: 300;
+    height: 100%;
+    word-spacing: 3px;
+    color: #4d4d4d;
+}
+/* Headers */
+
+h1 {
+    font-family: 'Tangerine', serif;
+    font-size: 54px;
+    word-break: break-word;
+  }
+
+h2 {
+  font-family: 'Tangerine', serif;
+  font-size: 40px;
+  word-break: break-word;
+  margin-bottom: 15px;
+}
+p {
+    font-size: 1.0em;
+    line-height: 1.4em;
+    font-weight: 400;
+    word-break: break-word;
+}
