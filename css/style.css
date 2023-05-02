@@ -22,14 +22,17 @@ body {
 .columnlong {
     flex: 2;
     flex-basis: 66.67%;
-    background-color: #ccc;
+    background-color: #d13be1;
 }
 .columnshort{
     flex: 1;
     flex-basis: 33.33%;
-    background-color: #aaa; 
+    background-color: #d29acf; 
 }
-.container{display: flex;
+.container{
+    display: flex;
+    margin: 30px auto;
+    padding: 10px;
 }
 /* Headers */
 
