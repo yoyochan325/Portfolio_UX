@@ -23,6 +23,7 @@ body {
     flex: 2;
     flex-basis: 66.67%;
     background-color: #d13be1;
+    margin-right: 30px;
 }
 .columnshort{
     flex: 1;
@@ -35,6 +36,11 @@ body {
     padding: 10px;
 }
 /* Headers */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 h1 {
     font-family: 'Tangerine', serif;
