@@ -61,8 +61,7 @@ p {
     word-break: break-word;
 }
 .circular-image {
-    border-radius: 50%;
-    overflow: hidden;
+    border-radius: 75px;
     margin: 20px auto;
 }
 
