@@ -54,6 +54,48 @@ h2 {
   word-break: break-word;
   margin-bottom: 15px;
 }
+
+/* Navigation List */
+
+nav {
+    ul{
+        padding-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+.nav{
+    margin-right: 0 auto 0 auto;
+    width: 95%;
+    background: darken();
+    color: #f0f0f0;
+}
+
+.nav ul {
+    font-family: 'Georgia', 'Times New Roman', 'Sans-Serif';
+    padding: 3px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.nav a {
+    display: block;
+    padding: 0 25 px;
+    line-height: inherit;
+    cursor: pointer;
+}
+
+.nav__menu {
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.nav__menu-item {
+    display: inline-block;
+    position: relative;
+}
+
 p {
     font-size: 1.0em;
     line-height: 1.4em;
