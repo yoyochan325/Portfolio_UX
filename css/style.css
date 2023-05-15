@@ -17,8 +17,20 @@ body {
     height: 100%;
     word-spacing: 3px;
     color: #4d4d4d;
-
+    background-color: #FFF8DC;
 }
+.column{
+    flex:1;
+    flex-basis: 45%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.column img{
+    height: auto;
+    border-radius: 25px;
+}
+
+
 .columnlong {
     flex: 2;
     flex-basis: 50%;
