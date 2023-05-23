@@ -47,13 +47,16 @@ body {
     margin: 30px auto;
     padding: 10px;
 }
-/* Headers */
+
+/*Flex Container*/ 
 .flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
+/* Headers */
 h1 {
     font-family: 'Tangerine', serif;
     font-size: 54px;
