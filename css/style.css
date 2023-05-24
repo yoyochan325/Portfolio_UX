@@ -63,6 +63,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     border: 30px;
+    row-gap: 20px;
 }
 
 /* Flip Image */
