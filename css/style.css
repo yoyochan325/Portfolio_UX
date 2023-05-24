@@ -82,7 +82,7 @@ body {
     text-align: justify;
 }
 .flip-container:hover .flip-container-image{
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
 }
 
 .flip-container-front, .flip-container-back{
@@ -99,7 +99,7 @@ body {
 
 .flip-container-back {
     z-index: 1;
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
     background-color: #4d4d4d;
 }
 
