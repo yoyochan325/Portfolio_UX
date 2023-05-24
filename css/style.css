@@ -95,14 +95,14 @@ body {
 
 .flip-container-front {
     z-index: 2;
-    
-    
 }
 
 .flip-container-back {
     z-index: 1;
     transform: rotateY(180deg); /* Horizontal rotation */
     background-color: #4d4d4d;
+    width: 350px;
+    height: 500px;
     padding: 20px;
 }
 
