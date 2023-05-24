@@ -73,7 +73,7 @@ body {
     display: inline-block;
     width: 350px;
     height: 450px;
-    border: 3px solid #f1f1f1;
+    border: 2px solid #f1f1f1;
     perspective: 1000px; 
 }
 .flip-container-image{
