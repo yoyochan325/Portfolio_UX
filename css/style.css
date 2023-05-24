@@ -72,8 +72,8 @@ body {
     display: inline-block;
     width: 350px;
     height: 500px;
-    border: 2px solid #f1f1f1;
-    margin: 10px;
+    border: 3px solid #f1f1f1;
+    padding: 10px;
     perspective: 1000px; 
 }
 .flip-container-image{
@@ -83,7 +83,7 @@ body {
     text-align: justify;
 }
 .flip-container:hover .flip-container-image{
-    transform: rotateY(180deg);
+    transform: rotateY(180deg); /* Horizontal rotation */
 }
 
 .flip-container-front, .flip-container-back{
@@ -95,14 +95,15 @@ body {
 
 .flip-container-front {
     z-index: 2;
-    background-color: #4d4d4d;
+    
     
 }
 
 .flip-container-back {
     z-index: 1;
-    transform: rotateY(180deg);
-    
+    transform: rotateY(180deg); /* Horizontal rotation */
+    background-color: #4d4d4d;
+    padding: 20px;
 }
 
 /* Headers */
