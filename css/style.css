@@ -62,6 +62,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    border: 30px;
 }
 
 /* Flip Image */
@@ -70,7 +71,7 @@ body {
     background-color: transparent;
     display: inline-block;
     width: 350px;
-    height: 500px;
+    height: 400px;
     border: 3px solid #f1f1f1;
     perspective: 1000px; 
 }
@@ -100,8 +101,8 @@ body {
     transform: rotateY(180deg); /* Horizontal rotation */
     background-color: #4d4d4d;
     width: 350px;
-    height: 500px;
-    vertical-align: middle;
+    height: 400px;
+    
 }
 
 /* Headers */
