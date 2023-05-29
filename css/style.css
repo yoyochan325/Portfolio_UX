@@ -42,7 +42,6 @@ body {
 .columnlong {
     flex: 2;
     flex-basis: 50%;
-    background-color: #d13be1;
     margin-right: 30px;
 }
 .columnshort{
