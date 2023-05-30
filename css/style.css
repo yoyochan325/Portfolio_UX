@@ -47,7 +47,6 @@ body {
 .columnshort{
     flex: 1;
     flex-basis: 25%;
-    background-color: #d29acf; 
 }
 .container{
     display: flex;
