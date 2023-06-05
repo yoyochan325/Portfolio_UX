@@ -131,6 +131,16 @@ h2 {
   margin-bottom: 15px;
 }
 
+/* Style Input */
+input[type=text] , select, textarea {
+    width: 100px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; 
+}
+
 /* Navigation List */
 
 .nav{
