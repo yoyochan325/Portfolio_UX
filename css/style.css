@@ -37,8 +37,8 @@ br{
 .column{
     flex:1;
     flex-basis: 45%;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
     min-width: 200px;
 }
 .column img{
