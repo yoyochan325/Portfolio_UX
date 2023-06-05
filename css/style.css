@@ -39,6 +39,7 @@ br{
     flex-basis: 45%;
     margin-left: 20px;
     margin-right: 20px;
+    min-width: 200px;
 }
 .column img{
     height: auto;
@@ -50,12 +51,12 @@ br{
     flex: 2;
     flex-basis: 60%;
     margin-right: 30px;
-    min-width: 400px;
+    min-width: 300px;
 }
 .columnshort{
     flex: 1;
     flex-basis: 30%;
-    min-width: 200px;
+    min-width: 150px;
 }
 
 
