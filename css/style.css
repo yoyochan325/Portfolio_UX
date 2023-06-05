@@ -133,7 +133,7 @@ h2 {
 
 /* Style Input */
 input[type=text] , select, textarea {
-    width: 100px;
+    width: 100%;
     padding: 15px;
     border: 1px solid #ccc;
     margin-top: 6px;
