@@ -5,6 +5,12 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+address{
+    display: block;
+    font-style: italic;
+}
+
 body {
     margin-top: 60px;
     margin-right: 60px;
