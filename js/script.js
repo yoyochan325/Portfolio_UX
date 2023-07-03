@@ -5,4 +5,4 @@ function switchText() {
     var newIndex = (currentIndex +1)% textArray.length;
     textElement.innerHTML=textArray[newIndex];
 }
-setInterval(switchText,3000);
+setInterval(switchText,2000);
