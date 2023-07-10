@@ -22,8 +22,18 @@ body {
     font-weight: 300;
     height: 100%;
     word-spacing: 3px;
+    
+}
+.body-dark-mode {
+    color: #FFF8DC;
+    background-color: #4d4d4d;
+
+}
+
+.body-light-mode {
     color: #4d4d4d;
     background-color: #FFF8DC;
+
 }
 
 br{
