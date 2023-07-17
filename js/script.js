@@ -25,3 +25,11 @@ function setTheme() {
     }
 setTheme();
 
+var flashingText = document.getElementById("flashing-text");
+var colorArray = ["black", "green", "blue", "purple"];
+var currentColorIndex = 0;
+flashingText.style.color = colors[currentColorIndex];
+setInterval(function(){
+    var newColorIndex = (currentColorIndex +1)% colorArray.length;
+    flashingText.style.color=colorArray[newColorIndex];
+}, 1000);
