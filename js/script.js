@@ -33,3 +33,18 @@ setInterval(function(){
     var newColorIndex = (currentColorIndex +1)% colorArray.length;
     flashingText.style.color=colorArray[newColorIndex];
 }, 1000);
+
+var colorArray = ['black', 'green', 'blue', 'purple'];
+// Change the color at regular intervals
+function switchColor() {
+    // Get the element
+    var flashingText = document.getElementById('flashing-text');
+    // Set an initial color
+    var currentColorIndex = colorArray.indexOf(flashingText.innerHTML);
+    // Increment the color index
+    var newColorIndex = (currentColorIndex + 1) % colorArray.length;
+    
+    // Set the new color
+    flashingText.style.color = colorArray[newColorIndex];
+}
+setInterval(switchColor, 1000);
