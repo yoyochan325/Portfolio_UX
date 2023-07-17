@@ -15,7 +15,7 @@ function setTheme() {
     var bodyElement = document.getElementsByTagName("body")[0]; 
     //[0] indicates the first <body> tag in the HTML file,
     //which is the opening of <body> instead of </body>
-    if (currentHour >= 6 && currentHour < 9){
+    if (currentHour >= 6 && currentHour < 18){
         bodyElement.classList.remove("body-dark-mode");
         bodyElement.classList.add("body-light-mode");
     } else {
